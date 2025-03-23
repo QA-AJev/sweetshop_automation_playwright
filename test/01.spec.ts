@@ -17,7 +17,7 @@ test.describe('Basic Functionality Check - Navigation & Links', () => {
 
         await page.click('a.nav-link[href="/basket"]');
         await expect(page).toHaveURL(/\/basket/);
-        await expect(page.locator('role=link[name="Basket"]')).toBeVisible();
+        await expect(page.locator('a.nav-link:has-text("Basket")')).toBeVisible();
         await page.goBack();
 
         const cards = await page.locator('.card');
@@ -32,15 +32,15 @@ test.describe('Basic Functionality Check - Navigation & Links', () => {
 
         await page.click('a.nav-link[href="/sweets"]');
         await expect(page).toHaveURL(/\/sweets/);
-        await expect(page.locator('text=Sweets')).toBeVisible();
+        await expect(page.locator('a.nav-link:has-text("Sweets")')).toBeVisible();
 
         await page.click('a.nav-link[href="/about"]');
         await expect(page).toHaveURL(/\/about/);
-        await expect(page.locator('text=About')).toBeVisible();
+        await expect(page.locator('a.nav-link:has-text("About")')).toBeVisible();
 
         await page.click('a.nav-link[href="/login"]');
         await expect(page).toHaveURL(/\/login/);
-        await expect(page.locator('text=Login')).toBeVisible();
+        await expect(page.locator('a.nav-link:has-text("Login")')).toBeVisible();
     });
 
     test('Verifies nav bar links from the basket page remain functional', async ({ page }) => {
