@@ -27,8 +27,6 @@ test.describe('Billing Information Form Test', () => {
 
     await page.locator('a.nav-link[href="/basket"]').click();
     await page.waitForLoadState('load');
-    
-    console.log(await page.content());
 
     await page.locator('input#name').first().waitFor({ state: 'visible' });
     await page.fill('input#name', 'John');
