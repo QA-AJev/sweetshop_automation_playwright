@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { pageTest } from '../utils/pageTest';
 
 // These are the 16 actual products in the store
 const productsInStore = [
