@@ -1,0 +1,11 @@
+1. 'Login' button has dinamic id.
+2. 'Standart Shipping' is price not a number and can't be added to total price.
+3. 'Wham Bars' product image is not displayed.
+4. 'Promo code' has no validation.
+5. 'Checkout's' two inputs have same id.
+6. 'About' link is broken goning from 'Basket' page.
+7. 'Checkout' does not redirect futher for payment options.
+8. 'Login' social media links redirects to sweetshop homepage.
+9. 'Sale' banner has no link and no addition information or function.
+10. Sherbert displayed as Sherbet in basket.
+11. Order of items added to basket not follows basket page displayed items ? (not important)

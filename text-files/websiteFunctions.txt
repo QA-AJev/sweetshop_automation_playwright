@@ -1,0 +1,47 @@
+1. Homepage:
+Navigation Menu:
+
+Sweets: a link to view the candy assortment.
+About: information about the project.
+Login: the login page for user access.
+Basket: shopping cart showing the number of items.
+Banner: “Sale now on” – information about an ongoing promotion.
+Welcome Message: "Welcome to the sweetest shop on the web! Discover the best candy selection online."
+
+Button: “Browse Sweets” – explore the candy collection.
+
+2. Popular Products:
+Sherbert Straws: colorful straws filled with powdered sugar. Price: £0.75.
+Chocolate Cups: chocolate cups. Price: £1.00.
+Sherbert Discs: flying saucer-shaped sweets filled with sherbet. Price: £0.95.
+Bon Bons: pink strawberry-flavored bonbons dusted with powdered sugar. Price: £1.00.
+Product Features:
+
+Product name and description.
+Price details.
+“Add to Basket” button: add item to the shopping cart.
+
+3. About Us Page:
+Project Description: "A deliberately broken web application designed to demonstrate Chrome DevTools."
+
+Goal: to showcase useful Chrome DevTools features for testing web applications.
+
+Note: the website intentionally contains flaws to simulate real-world issues.
+
+4. Login Page:
+Email Address: input a valid email address.
+Password: input a valid password.
+Login Button: log into the user account.
+Social Media Icons: Twitter, Facebook, LinkedIn.
+
+5. Shopping Cart (Basket):
+Cart Icon with Item Count: displays the number of items in the cart.
+Item Preview: option to view added products.
+Quantity Adjustment: ability to modify the quantity of items in the cart.
+Item Removal: ability to remove products from the cart.
+
+6. Checkout:
+Payment Process: ability to proceed with payment for the items in the cart.
+Notes:
+This site was created to assist in learning and demonstrating testing tools and techniques. As a result, it contains intentional errors and discrepancies to reflect real-world challenges when testing applications.
+

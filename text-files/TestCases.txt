@@ -1,0 +1,50 @@
+Test case scenarios:
+
+1. Home page functional test
+    1.1 Page loaded successfully
+    1.2 200 response code received.
+    1.3 Page body is loaded.
+    1.4 "Sweet shop" should be displayed
+    1.5 Basket should be visible
+    1.6 Navigation links should be visible
+    1.7 Click on Basket
+    1.8 Page should redirect to basket
+    1.9 Navigation bar links should redirect to correct pages.
+
+2. Cart verification
+    2.1 Adding 4 items from main page  to cart.
+    2.2 Verify basket count display correctly.
+    2.3 Navigate to basket.
+    2.4 Verify items displayed correctly in order.
+
+3. Sweets page visual test
+    3.1 Go to 'https://sweetshop.netlify.app/sweets'
+    3.2 Verify page is visible
+    3.3 Verify each products has visible image, name and price
+
+4. Sweets page functional test
+    4.1 Go to 'https://sweetshop.netlify.app/sweets'
+    4.2 Verify page is visible
+    4.3 Add all items to the cart
+    4.4 Proceed to basket (cart)
+    4.5 Verify all items are displayed in basket
+    4.6 Verify delivery method functionality
+
+5. Billing Information Form Test
+    5.1 Go to 'https://sweetshop.netlify.app'
+    5.2 Verify page is visible
+    5.3 Add 4 items displayed on home page
+    5.4 Go to basket(cart) and fill in billing information using @faker
+    5.5 Continue to checkout should redirect to comfirmation page.
+
+6. Sweet Shop Login Test
+   6.1 Go to 'https://sweetshop.netlify.app'
+   6.2 Login using test@user.com
+   6.3 Page should redirect to login section
+   6.4 Check if page is loaded
+
+7. User page functionallity test
+    7.1 Go to 'https://sweetshop.netlify.app'
+    7.2 Login using test@user.com
+    7.3 Check if sorting is displayed in correct order
+
